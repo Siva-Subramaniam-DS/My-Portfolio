@@ -9,6 +9,8 @@ import loanBankImage from '../assets/Loan Bank.png';
 import loanBank1Image from '../assets/Loan Bank1.png';
 import loanBank2Image from '../assets/Loan Bank2.png';
 import bezalelInteriorsImage from '../assets/bezalel-interiors.png';
+import bezalelInteriors1Image from '../assets/bezalel-interiors1.png';
+import bezalelInteriors2Image from '../assets/bezalel-interiors2.png';
 import solarImage from '../assets/Solar.png';
 import appStoreImage from '../assets/app store.png';
 import rajaRanjiVideo from '../assets/RajaRanj.mp4';
@@ -21,6 +23,7 @@ import geoGreen5 from '../assets/GeoGreenAi/Screenshot 2026-03-02 070840.png';
 import geoGreen6 from '../assets/GeoGreenAi/Screenshot 2026-03-02 070858.png';
 import geoGreen7 from '../assets/GeoGreenAi/Screenshot 2026-03-02 070914.png';
 import geoGreen8 from '../assets/GeoGreenAi/Screenshot 2026-03-02 071104.png';
+import botImage from '../assets/Bot.png';
 import { useTheme } from '../context/ThemeContext';
 
 const Projects = () => {
@@ -505,6 +508,16 @@ const Projects = () => {
   const projects = [
     {
       category: 'web',
+      image: botImage,
+      title: 'Discord Automation Bot',
+      description: 'A Discord-based automation platform serving 5,000+ users across global communities. Automates repetitive operations, information & data management, scheduled notifications, content generation, and multi-tool workflow integrations with 99.9% uptime.',
+      tags: ['Discord Bot', 'Automation', 'AI', 'Workflow Integration'],
+      demoLink: 'https://discord.com/users/1513375315181699213',
+      demoIcon: 'fab fa-discord',
+      codeLink: 'protected'
+    },
+    {
+      category: 'web',
       image: geoGreen1,
       title: 'GeoGreenAI',
       description: 'Built an AI-powered environmental analytics platform using satellite imagery. Analyzed green cover, urban density, and air quality indicators to support data-driven planning decisions. Enabled environmental insights for sustainability-focused analysis and reporting.',
@@ -567,10 +580,15 @@ const Projects = () => {
       category: 'design',
       image: bezalelInteriorsImage,
       title: 'Interior Design',
-      description: 'Comprehensive design system with reusable components for consistent branding across platforms.',
-      tags: ['HTML', 'React', 'JavaScript'],
-      demoLink: 'https://bezalelinterior.com/#home',
-      codeLink: '#'
+      description: 'Developed a clean, beautiful design system and web interface with responsive layouts and fluid interactions to showcase high-end architectural interior portfolios (Bezalel Interiors).',
+      tags: ['HTML5', 'React', 'CSS3', 'GSAP'],
+      demoLink: 'multiple',
+      demoOptions: [
+        { name: 'Bezalel Interiors Home', image: bezalelInteriorsImage },
+        { name: 'Portfolio Showcase', image: bezalelInteriors1Image },
+        { name: 'Service Highlights', image: bezalelInteriors2Image }
+      ],
+      codeLink: 'protected'
     },
     {
       category: 'design',
@@ -658,7 +676,7 @@ const Projects = () => {
                         </button>
                       ) : (
                         <a href={project.demoLink} className="gallery-btn demo-btn hover-lift" target="_blank" rel="noopener noreferrer">
-                          <i className="fas fa-eye"></i> View Demo
+                          <i className={project.demoIcon || "fas fa-eye"}></i> View Demo
                         </a>
                       )}
                       {project.codeLink === 'protected' ? (

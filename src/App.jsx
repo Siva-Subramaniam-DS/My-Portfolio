@@ -3,6 +3,7 @@ import './styles.css';
 import { ThemeProvider } from './context/ThemeContext';
 import { useGSAP } from './hooks/useGSAP';
 import GSAPBackground from './components/GSAPBackground';
+import CustomCursor from './components/CustomCursor';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -65,6 +66,7 @@ function App() {
   return (
     <ThemeProvider>
       <div ref={containerRef} className="app-container">
+        <CustomCursor />
         <GSAPBackground />
 
         <Navbar isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
