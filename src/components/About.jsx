@@ -20,7 +20,7 @@ const About = () => {
           <div className="about-details">
             <div className="detail-item">
               <span className="detail-title">Name:</span>
-              <span className="detail-info">Siva Subramanian</span>
+              <span className="detail-info">Siva Subramaniam</span>
             </div>
             <div className="detail-item">
               <span className="detail-title">Email:</span>

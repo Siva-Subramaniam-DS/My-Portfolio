@@ -34,7 +34,7 @@ export const themes = {
       '--transition': 'all 0.3s ease',
     },
     content: {
-      heroTitle: "Hi, I'm Siva Subramanian R",
+      heroTitle: "Hi, I'm Siva Subramaniam R",
       heroSubtitle: "Professional AI & ML Engineer specializing in creating exceptional digital experiences.",
       aboutTitle: "PERSONAL PROFILE",
       aboutDescription: "I am a recent graduate with a strong academic foundation in Artificial Intelligence and Python programming. I have developed a solid understanding of AI concepts and hands-on experience with key Python libraries and frameworks.",
@@ -72,7 +72,7 @@ export const themes = {
       '--transition': 'all 0.3s ease',
     },
     content: {
-      heroTitle: "Welcome, I'm Siva Subramanian R",
+      heroTitle: "Welcome, I'm Siva Subramaniam R",
       heroSubtitle: "Innovative AI & ML Engineer crafting intelligent solutions in the digital realm.",
       aboutTitle: "DEVELOPER PROFILE",
       aboutDescription: "I am a passionate technologist with deep expertise in Artificial Intelligence and Machine Learning. My journey involves creating intelligent systems and exploring the frontiers of modern technology.",
@@ -110,7 +110,7 @@ export const themes = {
       '--transition': 'all 0.3s ease',
     },
     content: {
-      heroTitle: "Dive Deep, I'm Siva Subramanian R",
+      heroTitle: "Dive Deep, I'm Siva Subramaniam R",
       heroSubtitle: "AI & ML Engineer navigating the vast ocean of data and intelligent solutions.",
       aboutTitle: "NAVIGATOR'S PROFILE",
       aboutDescription: "Like an ocean explorer, I dive deep into the world of Artificial Intelligence and Machine Learning, discovering new patterns and creating waves of innovation in the tech industry.",
@@ -148,7 +148,7 @@ export const themes = {
       '--transition': 'all 0.3s ease',
     },
     content: {
-      heroTitle: "Golden Hour, I'm Siva Subramanian R",
+      heroTitle: "Golden Hour, I'm Siva Subramaniam R",
       heroSubtitle: "Creative AI & ML Engineer painting the future with intelligent algorithms.",
       aboutTitle: "ARTIST'S CANVAS",
       aboutDescription: "I blend creativity with technology, painting beautiful solutions with AI and Machine Learning. Each project is a masterpiece of innovation and artistic problem-solving.",
@@ -186,7 +186,7 @@ export const themes = {
       '--transition': 'all 0.3s ease',
     },
     content: {
-      heroTitle: "Growing Naturally, I'm Siva Subramanian R",
+      heroTitle: "Growing Naturally, I'm Siva Subramaniam R",
       heroSubtitle: "Sustainable AI & ML Engineer cultivating organic tech solutions for tomorrow.",
       aboutTitle: "GROWTH PROFILE",
       aboutDescription: "I believe in sustainable technology growth, nurturing AI and Machine Learning solutions that benefit both humanity and our environment. My approach is rooted in ethical innovation.",
@@ -224,7 +224,7 @@ export const themes = {
       '--transition': 'all 0.3s ease',
     },
     content: {
-      heroTitle: "Under the Stars, I'm Siva Subramanian R",
+      heroTitle: "Under the Stars, I'm Siva Subramaniam R",
       heroSubtitle: "Visionary AI & ML Engineer illuminating the path to tomorrow's technology.",
       aboutTitle: "COSMIC PROFILE",
       aboutDescription: "I reach for the stars in AI and Machine Learning, creating solutions that transcend earthly limitations. My vision extends beyond the horizon of current possibilities.",
