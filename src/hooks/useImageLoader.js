@@ -93,7 +93,7 @@ export const useImageLoader = (images = [], options = {}) => {
         newSet.delete(index);
         return newSet;
       });
-      setErrorImages(prev => newSet([...prev, index]));
+      setErrorImages(prev => new Set([...prev, index]));
     };
 
     img.src = imageSrc;

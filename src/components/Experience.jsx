@@ -20,7 +20,7 @@ const Experience = () => {
               <img src={innova8sLogo} alt="Innova8s Logo" />
             </div>
             <div className="timeline-content">
-              <span className="date">Jul 2025 - Present · 11 mos</span>
+              <span className="date">Jul 2025 – Present</span>
               <h3>AI-ML Consultant</h3>
               <h4>Innova8s Pte Ltd · Full-time</h4>
               <p className="location">

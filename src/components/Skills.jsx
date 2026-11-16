@@ -14,11 +14,31 @@ const Skills = () => {
   ];
 
   const technicalSkills = [
-    { icon: 'brain', title: 'Machine Learning Tools' },
-    { icon: 'code', title: 'Programming Languages' },
-    { icon: 'chart-bar', title: 'Data Analysis & Visualization' },
-    { icon: 'database', title: 'Big Data Technologies' },
-    { icon: 'film', title: 'Media' }
+    { 
+      icon: 'brain', 
+      title: 'AI & Machine Learning',
+      items: ['Deep Learning', 'Computer Vision', 'Neural Networks', 'PyTorch', 'TensorFlow', 'scikit-learn', 'OpenCV']
+    },
+    { 
+      icon: 'code', 
+      title: 'Programming Languages',
+      items: ['Python (Flask, Django)', 'JavaScript (React, ES6+)', 'HTML5 / CSS3', 'GSAP Animations', 'RPG III (AS/400)']
+    },
+    { 
+      icon: 'chart-bar', 
+      title: 'Data Analytics',
+      items: ['Power BI', 'Tableau', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn']
+    },
+    { 
+      icon: 'database', 
+      title: 'Databases & Storage',
+      items: ['MongoDB', 'DB2', 'SQL', 'Big Data']
+    },
+    { 
+      icon: 'cloud', 
+      title: 'DevOps & Cloud',
+      items: ['Docker', 'Kubernetes', 'Google Cloud (GCP)']
+    }
   ];
 
   return (
@@ -51,6 +71,13 @@ const Skills = () => {
                     <i className={`fas fa-${skill.icon}`}></i>
                   </div>
                   <h4>{skill.title}</h4>
+                  {skill.items && (
+                    <div className="skill-tags">
+                      {skill.items.map((item, itemIdx) => (
+                        <span key={itemIdx} className="skill-tag">{item}</span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

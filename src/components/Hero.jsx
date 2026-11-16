@@ -94,7 +94,7 @@ const Hero = () => {
           </div>
           <div className="hero-image scale-on-scroll">
             <div className="image-container" ref={imageRef}>
-              <img src={P1Image} alt="Siva Subramanian R" />
+              <img src={P1Image} alt="Siva Subramaniam R" />
               <div className="image-overlay"></div>
             </div>
           </div>
